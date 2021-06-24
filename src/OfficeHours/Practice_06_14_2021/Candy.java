@@ -13,22 +13,27 @@ public class Candy {
     }
 
     public String getBrand() {
+
         return brand;
     }
 
     public void setBrand(String brand) {
+
         this.brand = brand;
     }
 
     public int getQuantity() {
+
         return quantity;
     }
 
     public void setQuantity(int quantity) {
+
         this.quantity = quantity;
     }
 
     public boolean isContainsPeanuts() {
+
         return hasPeanuts;
     }
 
@@ -37,10 +42,12 @@ public class Candy {
     }
 
     public static int getTotalNumOfCandies() {
+
         return totalNumOfCandies;
     }
 
     public static void setTotalNumOfCandies(int totalNumOfCandies) {
+
         Candy.totalNumOfCandies = totalNumOfCandies;
     }
 
