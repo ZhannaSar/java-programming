@@ -22,6 +22,7 @@ public class FirstAndLastTest {
         }
 
         String friend = "aziza";
+        System.out.println(friend.length());
         char firstletter = friend.charAt(0);
         char lastletter = friend.charAt(friend.length() - 1);
         System.out.println(firstletter);
