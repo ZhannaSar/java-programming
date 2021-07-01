@@ -11,6 +11,9 @@ public class StringCreationMethods {
         String word4 = new String();
         System.out.println("java");
         System.out.println("Hello World");
+        System.out.println(word1);
+        System.out.println(word2);
+        System.out.println(word4);
         Scanner scan = new Scanner(System.in);
     }
 }

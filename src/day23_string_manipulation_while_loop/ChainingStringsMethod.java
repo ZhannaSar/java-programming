@@ -12,5 +12,10 @@ public class ChainingStringsMethod {
         String city = "kABUL";
         System.out.println(city.substring(0,1).toUpperCase() + city.substring(1).toLowerCase());
 
+
+        String name = "zhanna";
+        //System.out.println(name.substring(1,3).toUpperCase());
+        System.out.println(name.substring(3).toLowerCase());
+
     }
 }
