@@ -1,7 +1,5 @@
 package mysolvings;
 
-public class today {
-    static {
-
-    }
+public abstract class today {
+   public abstract void eat();
 }
