@@ -15,8 +15,8 @@ public class MaxMinPrice {
 
         System.out.println("----1) find and print details of most expensive item-----");
 
-        double maxPrice = prices[0];
-        int indexOfMaxPrice = 0;
+        double maxPrice=prices[0];
+        int indexOfMaxPrice=0;
 
         for (int i = 0; i < prices.length; i++){
             if (prices[i] > maxPrice) {
